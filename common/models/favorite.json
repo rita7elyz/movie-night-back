@@ -1,0 +1,29 @@
+{
+  "name": "favorite",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "thirdPartyMovieId": {
+      "type": "string",
+      "required": true
+    },
+    "overview": {
+      "type": "string",
+      "required": true
+    },
+    "poster_path": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
